@@ -1,0 +1,30 @@
+* {
+    font-family:Roboto, Times, serif;
+}
+
+header {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+    padding: 0;
+}
+
+
+
