@@ -26,5 +26,9 @@ a {
     padding: 0;
 }
 
+.main {
+    display: flex;
+}
+
 
 
