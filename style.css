@@ -100,12 +100,41 @@ button {
     color: white;
 }
 
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px ;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.cards  {
+    display: flex;
+    gap: 40px;
+}
+
+.flashcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 300px;
+   
+}
+
 .card {
-    width: 100px;
-    height: 100px;
-    border: 2px;
+    width: 150px;
+    height: 150px;
+    border: 3px;
     border-style: solid;
     border-color: #3882F6;
+    border-radius: 10px;
 }
 
 
