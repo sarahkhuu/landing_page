@@ -7,6 +7,7 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
+    
 
 }
 
@@ -15,10 +16,18 @@ body {
     display: flex;
 }
 
+.top {
+    background-color: #1f2937;
+    padding: 30px 300px 50px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
 header {
     display: flex;
-    background-color: #1f2937;
     color: white;
+    justify-content: center;
 }
 
 a {
@@ -27,27 +36,64 @@ a {
 }
 
 .logo {
+    color: #F9FAF8;
     font-weight: bold;
+    font-size: 24px;
 }
 
-.links {
+ul {
     list-style-type: none;
     display: flex;
-    gap: 8px;
+    gap: 24px;
     margin-left: auto;
     padding: 0;
 }
 
-
 .main {
     display: flex;
+    justify-content: center;
+    gap: 32px;
+    
 
 }
 
+.main-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.hero {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero-sub {
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+
 .placeholder {
     display: flex;
-    width: 300px;
-    height: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
     background-color: grey;
     justify-content: center;
     align-items: center;
