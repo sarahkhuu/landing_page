@@ -12,7 +12,7 @@ body {
 }
 
 .content {
-    flex: 1
+    flex: 1;
     display: flex;
 }
 
@@ -78,7 +78,7 @@ ul {
     color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    
+    font-size: 18px;
     
 }
 
@@ -146,8 +146,8 @@ button {
 
 .second {
     background-color: #E5E7EB;
-    align-items: center;
-    padding: 72px 182px;
+    padding: 72px 198px;
+    flex-direction: column;
 }
 
 .quote {
@@ -155,10 +155,48 @@ button {
     font-style: italic;
     text-align: center;
     color: #1F2937;
+    align-self:center;
 }
 
 .credit {
     text-align: end;
     font-weight: bold;
+    align-self: flex-end;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.third {
+    align-items: center;
+    justify-content: center;
+    padding: 48px 96px;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    padding: 32px 80px;
+    border-radius: 5px;
+    gap: 64px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.action-bold {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.action-sub {
+    font-size: 18px;
+}
+
+.bottom {
+    border: 2px solid #F9FAF8;
+    align-self:center;
 }
 
